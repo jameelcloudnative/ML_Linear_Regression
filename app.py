@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 # Load the CSV file
-df = pd.read_csv("data\dataset.csv")
+df = pd.read_csv("data/dataset.csv")
 
 # Transpose data to get years as rows and months as columns
 df_t = df.set_index("Month").T

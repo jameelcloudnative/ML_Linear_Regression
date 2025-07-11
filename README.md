@@ -20,7 +20,7 @@ ML_Linear_Regression/
 │
 ├── app.py                     # Command-line version for quick predictions
 ├── app.ipynb                  # Jupyter Notebook with step-by-step workflow and visualizations
-├── sales_data_2015_2024.csv   # Historical monthly sales dataset
+├── data/dataset.csv   # Historical monthly sales dataset
 └── README.md                  # Project documentation
 ```
 
