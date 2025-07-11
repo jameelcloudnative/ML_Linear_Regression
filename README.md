@@ -33,7 +33,7 @@ Follow the steps below to run this project locally:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ML_Linear_Regression.git
+git clone https://github.com/jameelcloudnative/ML_Linear_Regression.git
 cd ML_Linear_Regression
 ```
 
