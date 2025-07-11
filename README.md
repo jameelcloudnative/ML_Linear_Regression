@@ -1,2 +1,2 @@
 # ML_Linear_Regression
-Machine Learning Linear Regression
+Predict the Sale of 2025 using Linear Regression
