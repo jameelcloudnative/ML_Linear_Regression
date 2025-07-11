@@ -1,7 +1,7 @@
 
 # 📈 ML Linear Regression — 2025 Sales Forecast
 
-Forecast monthly sales for the year **2025** using **Linear Regression**, based on historical sales data from a **feed mill company** (2015–2024).
+Forecast monthly sales for the year **2025** using **Linear Regression**, based on historical sales data from **2015–2024**.
 
 ---
 
@@ -98,7 +98,7 @@ Then open `app.ipynb` to:
 
 - Format: Monthly sales per row, with each row representing a year
 - Columns: Jan, Feb, Mar, ..., Dec
-- Data source: Internal records from a feed mill company
+- Data source: Internal records from a company
 
 > Make sure the CSV file is located in the root directory of the project.
 
