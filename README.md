@@ -94,13 +94,11 @@ Then open `app.ipynb` to:
 
 ## 📁 Dataset
 
-**File:** `sales_data_2015_2024.csv`
+**File:** `data/dataset.csv`
 
 - Format: Monthly sales per row, with each row representing a year
 - Columns: Jan, Feb, Mar, ..., Dec
 - Data source: Internal records from a company
-
-> Make sure the CSV file is located in the root directory of the project.
 
 ---
 
