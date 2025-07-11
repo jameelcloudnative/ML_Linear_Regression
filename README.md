@@ -1,7 +1,7 @@
 
 # 📈 ML Linear Regression — 2025 Sales Forecast
 
-Forecast monthly sales for the year **2025** using **Linear Regression**, based on historical sales data from a **feed mill company** (2014–2024).
+Forecast monthly sales for the year **2025** using **Linear Regression**, based on historical sales data from a **feed mill company** (2015–2024).
 
 ---
 
