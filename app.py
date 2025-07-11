@@ -28,18 +28,16 @@ for month in month_columns:
 
 # Convert predictions to DataFrame
 predicted_df = pd.DataFrame(list(predictions_2025.items()), columns=["Month", "Predicted Sales 2025"])
-predicted_df = predicted_df.sort_values(by="Month")
+
+# Define the correct month order
+month_order = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", 
+               "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+# Apply categorical ordering and sort
+predicted_df["Month"] = pd.Categorical(predicted_df["Month"], categories=month_order, ordered=True)
+predicted_df = predicted_df.sort_values("Month")
 
 # Display predicted values
 print(predicted_df)
 
-# Optional: Plot the predictions
-plt.figure(figsize=(10, 5))
-plt.plot(predicted_df["Month"], predicted_df["Predicted Sales 2025"], marker='o')
-plt.title("Predicted Monthly Sales for 2025")
-plt.xlabel("Month")
-plt.ylabel("Sales")
-plt.grid(True)
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
+
